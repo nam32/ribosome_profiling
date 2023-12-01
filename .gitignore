@@ -3,3 +3,4 @@ dataset/
 results/
 preprocessing/
 ori_dataset_fastqc/
+annotation/
