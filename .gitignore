@@ -1,0 +1,5 @@
+#directories to ignore
+dataset/
+results/
+preprocessing/
+ori_dataset_fastqc/
