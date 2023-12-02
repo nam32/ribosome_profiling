@@ -11,7 +11,7 @@
 
 # input: fasta file(s)
 # output: zip file(s)
-# This script fastqc report, the script should be run with syntax: sbatch fastqc.sh "foldername" "path/to/directory/regex_doc"
+# This script fastqc report, the script should be run with syntax: sbatch fastqc.sh "foldername" "./path/to/directory/regex_doc"
 
 ####
 

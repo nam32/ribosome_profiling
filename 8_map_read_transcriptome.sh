@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=8000MB
 #SBATCH --job-name=map_transcriptome
