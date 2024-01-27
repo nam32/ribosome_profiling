@@ -1,7 +1,7 @@
 #!/bin/bash
 
-#SBATCH --cpus-per-task=1
-#SBATCH --mem-per-cpu=90000MB
+#SBATCH --cpus-per-task=4
+#SBATCH --mem-per-cpu=25000MB
 #SBATCH --job-name=differential_expression_analysis
 #SBATCH --time=02:00:00
 #SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch

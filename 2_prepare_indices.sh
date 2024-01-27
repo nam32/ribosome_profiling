@@ -3,7 +3,7 @@
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=8000MB
 #SBATCH --job-name=prepare_indices
-#SBATCH --time=01:00:00
+#SBATCH --time=03:00:00
 #SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch
 #SBATCH --mail-type=begin,end
 
