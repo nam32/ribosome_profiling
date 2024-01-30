@@ -33,10 +33,10 @@ NCBI Nucleotide module to procure 45S, 28S, 18S, 5.8S, 5S rRNA sequences.
 4. Select Format: FASTA
 5. Click “Create File”
 
-Concatenate the 3 files into a single FASTA file to form undesired RNA file.
+Concatenate the 3 files into a single FASTA file to form undesired RNA file named GRCh38_p13_r_t_sno_sn_RNA_ENSEMBL_NCBI_GtRNAdb.fa.
 
 **Genome annotation**
-The reference genome annotation can be procured from Ensembl by clicking on the DNA(FASTA) of Homo sapiens. Upon clicking the link you will be redirected to the Ensembl FTP server where you will encounter a bunch of files. The file you are interested in will be named “Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz” (called GRCh38.dna.primary_assembly.fa in the solution below)
+The reference genome annotation can be procured from Ensembl by clicking on the DNA(FASTA) of Homo sapiens. Upon clicking the link you will be redirected to the Ensembl FTP server where you will encounter a bunch of files. The file you are interested in will be named “Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz” (download and rename to GRCh38.dna.primary_assembly.fa.gz)
 
 Also download the relevant GTF file from Ensembl under “Gene sets” named Homo_sapiens.GRCh38.108.gtf.gz (at the time of writing).
 
