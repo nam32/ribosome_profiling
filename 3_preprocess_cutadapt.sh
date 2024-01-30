@@ -9,11 +9,8 @@
 
 ####
 
-# input: 
-# output: RPF_KO_Rep1_clpd.fastq.gz     RPF_KO_Rep2_clpd.fastq.gz     RPF_WT_Rep1_clpd.fastq.gz     RPF_WT_Rep2_clpd.fastq.gz
-# RPF_KO_Rep1_clpd_log.txt      RPF_KO_Rep2_clpd_log.txt      RPF_WT_Rep1_clpd_log.txt      RPF_WT_Rep2_clpd_log.txt
-# RPF_KO_Rep1_clpd_tr.fastq.gz  RPF_KO_Rep2_clpd_tr.fastq.gz  RPF_WT_Rep1_clpd_tr.fastq.gz  RPF_WT_Rep2_clpd_tr.fastq.gz
-# RPF_KO_Rep1_clpd_tr_log.txt   RPF_KO_Rep2_clpd_tr_log.txt   RPF_WT_Rep1_clpd_tr_log.txt   RPF_WT_Rep2_clpd_tr_log.txt
+# input: *.fastq.gz
+# output: *.fastq.gz, *_log.txt
 # This script preprocess data by clipping adapters and quality trimming
 
 ####
