@@ -4,14 +4,12 @@
 #SBATCH --mem-per-cpu=8000MB
 #SBATCH --job-name=multiqc
 #SBATCH --time=01:00:00
-#SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch
-#SBATCH --mail-type=begin,end
 
 ####
 
-# input: 
-# output: 
-# 
+# input: log files
+# output: multiqc html report
+# This script generates multiqc report
 
 ####
 
