@@ -4,13 +4,11 @@
 #SBATCH --mem-per-cpu=8000MB
 #SBATCH --job-name=determine_codon_occupancy
 #SBATCH --time=02:00:00
-#SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch
-#SBATCH --mail-type=begin,end
 
 ####
 
 # input: Codon_occupancy_cal.sh, GRCh38_APPRIS_CDS_18_SingleLine.fa, RPF_*_clpd_tr_no_r_t_sno_sn_RNA_GRCh38_APPRIS_CDS.sam
-# output: RPF_KO_Rep1_Codon_occupancy.txt
+# output: *_Codon_occupancy.txt
 # Determine codon occupancy
 
 ####
