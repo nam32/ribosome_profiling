@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 #SBATCH --cpus-per-task=4
 #SBATCH --mem-per-cpu=25000MB
@@ -9,32 +9,14 @@
 
 ####
 
-# input: 
-# output: 
-# This script 
+# input: *RNA.fastq, Homo_sapiens.GRCh38.dna.primary_assembly
+# output: *_sorted.bam
+# This script performs RNA sequence alignment using Bowtie to Homo_sapiens.GRCh38.dna.primary_assembly, sort the BAM files and create sorted BAM files
 
 ####
 
 source ./module.sh
 cd ./results/
-
-#for x in $(ls -d *RNA.fastq); \
-#do echo ${x}; \
-#bowtie \
-#-S \
-#-t \
-#-p 4 \
-#-v 1 \
-#-m 1 \
-#--best \
-#--strata \
-#/path/to/annotation/GRCh38.dna.primary_assembly \
-#-q ${x} \
-#2> $(basename ${x} .fastq)_GRCh38_log.txt | \
-#samtools view \
-#-h \
-#-F 4 \
-#-b > $(basename ${x} .fastq)_GRCh38.bam; done
 
 for x in $(ls -d *RNA.fastq); do
     echo ${x}
