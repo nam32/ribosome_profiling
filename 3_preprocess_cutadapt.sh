@@ -4,8 +4,6 @@
 #SBATCH --mem-per-cpu=8000MB
 #SBATCH --job-name=preprocessing_target_sequence
 #SBATCH --time=01:00:00
-#SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch
-#SBATCH --mail-type=begin,end
 
 ####
 
