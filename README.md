@@ -4,7 +4,8 @@ Ribosome Profiling data analysis pipeline: preprocessing, differential expressio
 
 ****Annotations downloads**** (as written by Dr. Puneet Sharma)
 
-**“Undesired RNA” annotation** (3 sources were used to obtain sno-, sn- and r-RNA; tRNA; and rRNA):
+# "Undesired RNA” annotation 
+(3 sources were used to obtain sno-, sn- and r-RNA; tRNA; and rRNA):
 
 FASTA file containing rRNA, snRNA and snoRNA sequences can be generated from Ensembl biomart:
 1.  Database: Ensembl Genes (Version)
@@ -35,12 +36,12 @@ NCBI Nucleotide module to procure 45S, 28S, 18S, 5.8S, 5S rRNA sequences.
 
 Concatenate the 3 files into a single FASTA file to form undesired RNA file named GRCh38_p13_r_t_sno_sn_RNA_ENSEMBL_NCBI_GtRNAdb.fa.
 
-**Genome annotation**
+# Genome annotation
 The reference genome annotation can be procured from Ensembl by clicking on the DNA(FASTA) of Homo sapiens. Upon clicking the link you will be redirected to the Ensembl FTP server where you will encounter a bunch of files. The file you are interested in will be named “Homo_sapiens.GRCh38.dna.primary_assembly.fa.gz” (download and rename to GRCh38.dna.primary_assembly.fa.gz)
 
 Also download the relevant GTF file from Ensembl under “Gene sets” named Homo_sapiens.GRCh38.108.gtf.gz (at the time of writing).
 
-**Transcriptome annotation**
+# Transcriptome annotation
 A FASTA file containing sequences of principle splice isoforms that are extended by 18 nt in 5’- and 3’- ends can be generated from Ensembl biomart by clicking-on/selecting the following options in order:
 
 1. Database: Ensembl Genes (Version)
