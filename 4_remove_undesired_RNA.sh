@@ -4,8 +4,6 @@
 #SBATCH --mem-per-cpu=25000MB
 #SBATCH --job-name=remove_undesired_RNA
 #SBATCH --time=02:00:00
-#SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch
-#SBATCH --mail-type=begin,end
 
 source ./module.sh
 cd ./results/
