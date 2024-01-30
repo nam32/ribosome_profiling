@@ -4,8 +4,6 @@
 #SBATCH --mem-per-cpu=25000MB
 #SBATCH --job-name=mapping_to_genome
 #SBATCH --time=02:00:00
-#SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch
-#SBATCH --mail-type=begin,end
 
 ####
 
