@@ -1,6 +1,6 @@
 #!/bin/bash
 
-#SBATCH --cpus-per-task=4
+#SBATCH --cpus-per-task=8
 #SBATCH --mem-per-cpu=25000MB
 #SBATCH --job-name=differential_expression_analysis
 #SBATCH --time=02:00:00
