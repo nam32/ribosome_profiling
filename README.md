@@ -2,7 +2,12 @@
 
 Ribosome Profiling data analysis pipeline: preprocessing, differential expression analysis, GO analysis and codon occupancy analysis based on Dr. Puneet Sharma workflow.
 
-#Annotations downloads (as written by Dr. Puneet Sharma)
+script 1-10 were executed on the cluster
+script 11-15 were executed locally on R
+
+**Ribo-seQC package used has been modified from the original ( https://github.com/Tim-Yu/RiboseQC ) Please check script 11 to see how to modify the code
+
+# Annotations downloads (as written by Dr. Puneet Sharma)
 
 ## "Undesired RNA” annotation 
 (3 sources were used to obtain sno-, sn- and r-RNA; tRNA; and rRNA):
