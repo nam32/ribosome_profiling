@@ -5,17 +5,16 @@
 #SBATCH --job-name=remove_undesired_RNA
 #SBATCH --time=02:00:00
 
-source ./module.sh
-cd ./results/
-
 ####
 
 # input:*_clpd_tr.fastq.gz, GRCh38_p13_r_t_sno_sn_RNA_ENSEMBL_NCBI_GtRNAdb indices 
 # output:RPF_KO_Rep1_clpd_tr_no_r_t_sno_sn_RNA_log.txt, RPF_KO_Rep2_clpd_tr_no_r_t_sno_sn_RNA_log.txt, RPF_WT_Rep1_clpd_tr_no_r_t_sno_sn_RNA_log.txt, RPF_WT_Rep2_clpd_tr_no_r_t_sno_sn_RNA_log.txt 
-# 
-#Remove undesired RNA altered as bowtie cannot read the gunzip using piping
+# This script Removes undesired RNA altered as bowtie cannot read the gunzip using piping
 
 ####
+
+source ./module.sh
+cd ./results/
 
 #input files:
 #gunzip RPF_KO_Rep1_clpd_tr.fastq.gz
