@@ -4,13 +4,11 @@
 #SBATCH --mem-per-cpu=8000MB
 #SBATCH --job-name=map_transcriptome
 #SBATCH --time=02:00:00
-#SBATCH --mail-user=titaporn.janjumratsang@students.unibe.ch
-#SBATCH --mail-type=begin,end
 
 ####
 
 # input: GRCh38_APPRIS_CDS_18.fa, *RNA.fastq
-# output: biotype_counts_processed.txt, biotype_counts_rawfile.txt
+# output: GRCh38_APPRIS_CDS_18_SingleLine.fa, *RNA.fastq, example_RNA_GRCh38_APPRIS_CDS.sam, example_RNA_GRCh38_APPRIS_CDS_log.txt
 # This script maps reads to transcriptome
 
 ####
