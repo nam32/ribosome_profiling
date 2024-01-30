@@ -5,7 +5,7 @@ Ribosome Profiling data analysis pipeline: preprocessing, differential expressio
 script 1-10 were executed on the cluster
 script 11-15 were executed locally on R
 
-**Ribo-seQC package used has been modified from the original ( https://github.com/Tim-Yu/RiboseQC ) Please check script 11 to see how to modify the code
+**Ribo-seQC package used has been modified from the original ( https://github.com/Tim-Yu/RiboseQC ) Please check script 11 to see how to modify the code or use the modified package uploaded as Ribo-seQC
 
 # Annotations downloads (as written by Dr. Puneet Sharma)
 
