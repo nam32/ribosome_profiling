@@ -1,10 +1,3 @@
-## This script is designed to take DESeq2 result file as input.
-## This file was generated in the previous step (separate script) and contains
-## GeneID column containing Ensembl gene ids.
-## If you are using your own script for DGE analysis then make sure you have
-## the following columns:
-## GeneID, log2FoldChange, padj
-
 # Install packages
 #https://cran.r-project.org/bin/windows/Rtools/rtools43/files/rtools43-5863-5818.exe
 if (!require("BiocManager", quietly = TRUE)){
