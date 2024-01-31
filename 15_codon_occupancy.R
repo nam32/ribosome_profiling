@@ -1,12 +1,12 @@
+# input file: RPF_*_Rep*_Codon_occupancy.txt
+# output file: A_site_codon_occupancy.pdf
+
 #setwd("")
 
 ## Load packages
 library(tidyverse)
 library(MASS)
 library(car)
-
-# input file: RPF_*_Rep*_Codon_occupancy.txt
-# output file: A_site_codon_occupancy.pdf
 
 ## Datasets
 df_1 <- read.table("RPF_WT_Rep1_Codon_occupancy.txt",
