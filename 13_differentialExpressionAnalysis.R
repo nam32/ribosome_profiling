@@ -1,6 +1,9 @@
 # The following code essentially follows the vignette:
 # https://www.bioconductor.org/packages/devel/bioc/vignettes/DESeq2/inst/doc/DESeq2.html
 
+# input file: CDS_counts_processed.txt
+# output file: QC_sample_distance_matrix_CDS.pdf, QC_count_matrix_CDS.pdf, QC_PCA_CDS.pdf, DESeq2_res.csv, Volcano_plot.pdf, sorted_differentially_expressed_res_2_vs_1_df.csv
+
 # Install packages
 packages_to_install <- c("BiocManager", "DESeq2", "survival", "future", "org.Hs.eg.db")
 for (pkg in packages_to_install) {
@@ -25,8 +28,6 @@ library(org.Hs.eg.db)
 library(future)
 library(parallel)
 
-# input file: CDS_counts_processed.txt
-# output file: QC_sample_distance_matrix_CDS.pdf, QC_count_matrix_CDS.pdf, QC_PCA_CDS.pdf, DESeq2_res.csv, Volcano_plot.pdf, sorted_differentially_expressed_res_2_vs_1_df.csv
 
 #check number of cores available
 cores_available <- detectCores()
