@@ -1,3 +1,6 @@
+# input: RPF_KO_vs_WT_DESeq2_res.csv
+# output: *_Biological_Proccess_TopGO_Up_fisher.pdf, *_Biological_Proccess_TopGO_down_fisher, *_Molecular_Function_TopGO_Up_fisher.pdf, *_Molecular_Function_TopGO_down_fisher.pdf, *_Cellular_Component_TopGO_Up_fisher.pdf, *_Cellular_Component_TopGO_down_fisher.pdf, *_BP_Up_fisher_Genes_in_GO.txt, *_MF_Up_fisher_Genes_in_GO.txt, *_CC_Up_fisher_Genes_in_GO.txt, *_BP_Down_fisher_Genes_in_GO.txt, *_MF_Down_fisher_Genes_in_GO.txt, *_CC_Down_fisher_Genes_in_GO.txt, *_BP_Up_fisher_GO_terms.txt, *_MF_Up_fisher_GO_terms.txt, *_CC_Up_fisher_GO_terms.txt, *_BP_Down_fisher_GO_terms.txt, *_MF_Down_fisher_GO_terms.txt, *_CC_Down_fisher_GO_terms.txt
+
 # Install packages
 #https://cran.r-project.org/bin/windows/Rtools/rtools43/files/rtools43-5863-5818.exe
 if (!require("BiocManager", quietly = TRUE)){
@@ -29,9 +32,6 @@ library(clusterProfiler)
 library(topGO)
 library(dplyr)
 library(tidyr)
-
-# input: RPF_KO_vs_WT_DESeq2_res.csv
-# output: *_Biological_Proccess_TopGO_Up_fisher.pdf, *_Biological_Proccess_TopGO_down_fisher, *_Molecular_Function_TopGO_Up_fisher.pdf, *_Molecular_Function_TopGO_down_fisher.pdf, *_Cellular_Component_TopGO_Up_fisher.pdf, *_Cellular_Component_TopGO_down_fisher.pdf, *_BP_Up_fisher_Genes_in_GO.txt, *_MF_Up_fisher_Genes_in_GO.txt, *_CC_Up_fisher_Genes_in_GO.txt, *_BP_Down_fisher_Genes_in_GO.txt, *_MF_Down_fisher_Genes_in_GO.txt, *_CC_Down_fisher_Genes_in_GO.txt, *_BP_Up_fisher_GO_terms.txt, *_MF_Up_fisher_GO_terms.txt, *_CC_Up_fisher_GO_terms.txt, *_BP_Down_fisher_GO_terms.txt, *_MF_Down_fisher_GO_terms.txt, *_CC_Down_fisher_GO_terms.txt
 
 sample_name = "RPF_KO_vs_WT"
 
