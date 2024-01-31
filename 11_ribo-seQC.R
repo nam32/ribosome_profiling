@@ -1,8 +1,6 @@
-# Install packages
-install.packages("devtools")
-#install_github(repo = "ohlerlab/RiboseQC")
+# input file: GRCh38.dna.primary_assembly.2bit, Homo_sapiens.GRCh38.108.gtf, RPF_*_Rep*_clpd_tr_no_r_t_sno_sn_RNA_GRCh38_sorted.bam
+# output file: RPF_samples_QC.html
 
-# Load packages
 # NOTE: for RiboseQC package:
 # Download the fork of RiboseQC either by git clone or direct download of zip file.
 # Comment out line 2283 (genome_sequence<-get(library(GTF_annotation$genome,character.only = TRUE)))
@@ -12,11 +10,13 @@ install.packages("devtools")
 # In the terminal, navigate to the directory which contains correct RiboseQC code, Issue the command R CMD build RiboseQC/ which should make RiboseQC_0.99.0.tar.gz
 # Open RStudio and install.packages("/path/to/RiboseQC_0.99.0.tar.gz", repos = NULL, type="source")
 
+# Install packages
+install.packages("devtools")
+#install_github(repo = "ohlerlab/RiboseQC")
+
+# Load packages
 library(devtools)
 library(RiboseQC)
-
-# input file: GRCh38.dna.primary_assembly.2bit, Homo_sapiens.GRCh38.108.gtf, RPF_*_Rep*_clpd_tr_no_r_t_sno_sn_RNA_GRCh38_sorted.bam
-# output file: RPF_samples_QC.html
 
 ###### Analysis part ######
 # Prepare genome file (to be done only once!!!)
