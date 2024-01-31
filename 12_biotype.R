@@ -1,10 +1,10 @@
+# input file: biotype_counts_processed.txt (from featureCounts)
+# output file: RPF_biotypes.pdf
+
 # Load packages
 library(ggplot2)
 library(RColorBrewer)
 library(dplyr)
-
-# input file: biotype_counts_processed.txt (from featureCounts)
-# output file: RPF_biotypes.pdf
 
 # # From https://stackoverflow.com/questions/15282580/how-to-generate-a-number-of-most-distinctive-colors-in-r
 qual_col_pals = brewer.pal.info[brewer.pal.info$category == 'qual',]
